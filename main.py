@@ -8,6 +8,9 @@ import importlib
 import os
 import sys
 
+# Allowed users list
+ALLOWED_USERS = [7054481969]
+
 async def load_and_run_plugins():
     await start_client()
     plugin_dir = "plugins"
@@ -39,3 +42,4 @@ if __name__ == "__main__":
             loop.close()
         except Exception:
             pass
+
