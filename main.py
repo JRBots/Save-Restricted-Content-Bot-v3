@@ -8,8 +8,8 @@ import importlib
 import os
 import sys
 
-# Allowed users list
-ALLOWED_USERS = [7054481969]
+# ✅ Allowed Users List
+ALLOWED_USERS = [7054481969]  # यहाँ अपने Telegram user IDs डालो
 
 async def load_and_run_plugins():
     await start_client()
@@ -42,4 +42,5 @@ if __name__ == "__main__":
             loop.close()
         except Exception:
             pass
+
 
